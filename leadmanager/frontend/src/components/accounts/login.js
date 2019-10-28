@@ -37,6 +37,7 @@ export class Login extends Component {
               <input
                 type="text"
                 className="form-control"
+                autoComplete="username"
                 name="username"
                 onChange={this.onChange}
                 value={username}
@@ -47,6 +48,7 @@ export class Login extends Component {
               <input
                 type="password"
                 className="form-control"
+                autoComplete="current-password"
                 name="password"
                 onChange={this.onChange}
                 value={password}
